@@ -22,7 +22,8 @@ module.exports = (sequelize) => {
         },
         accessLevel: {
             type: DataTypes.STRING,
-            allowNull: false
+            allowNull: false,
+            defaultValue: 'user'
         },
         location: {
             type: DataTypes.STRING,
